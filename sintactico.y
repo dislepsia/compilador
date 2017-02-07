@@ -73,8 +73,8 @@ asignacion
     ;
 condicion
     : expresion CMP_MAY expresion    {printf("condicion  : expresion CMP_MAY expresion \n");}
-    | expresion CMP_MEN expresion    {printf("condicion  | expresion CMP_MEN expresion \n");}
-    | expresion CMP_MAYI expresion   {printf("condicion  :  \n");}
+    | expresion CMP_MEN expresion    {printf("condicion  : expresion CMP_MEN expresion \n");}
+    | expresion CMP_MAYI expresion   {printf("condicion  : CMP_MAYI expresion   \n");}
     | expresion CMP_MENI expresion   {printf("condicion  : CMP_MENI expresion   \n");}
     | expresion CMP_DIST expresion   {printf("condicion  : CMP_DIST expresion   \n");}
     | expresion CMP_IGUAL expresion  {printf("condicion  : CMP_IGUAL expresion  \n");}
